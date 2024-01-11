@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;700&display=swap');
+
+h1,
+h2 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    /* make the links not to be underlined */
+}
+
+p {
+    color: white;
+}
+
+header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+header img {
+    margin-right: 10px;
+}
+
+a {
+    color: white;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    background-color: green;
+    color: white;
+}
+
+body {
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #274713;
+
+}
+
+h3 {
+    background-color: green;
+    color: white;
+}
+
+hr {
+    width: 80%;
+}
+
+main {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: green;
+    width: 100%;
+    margin-top: auto;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
