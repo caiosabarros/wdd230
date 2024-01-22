@@ -25,3 +25,37 @@ section p {
 h1 {
     color: white;
 }
+
+#chighlight {
+    color: #A32365;
+}
+
+#cbuttons {
+    color: #03C4EB;
+}
+
+#cback {
+    color: #1D2D46;
+    /*Below is from: https://stackoverflow.com/questions/13426875/text-border-using-css-border-around-text */
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+        1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+    ;
+}
+
+#lato {
+    font-family: 'Lato', sans-serif;
+}
+
+#roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.colors p:nth-child(1) {
+    color: #03C4EB;
+    /* Applied in buttons */
+}
+
+.colors p:nth-child(3) {
+    color: #1D2D46;
+    /* Applied to background */
+}
