@@ -103,11 +103,13 @@ li {
     content: "❎";
 }
 
+/* small view navigation */
 .navigation a {
     display: none;
 }
 
 /* when the button is clicked - the open class is toggled (added/removed) */
+
 .open a {
     display: block;
 }
@@ -155,7 +157,7 @@ section:nth-child(3) {
         width: 100%;
     }
 
-    /* small view navigation */
+
     #menu {
         display: none;
     }

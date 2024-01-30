@@ -1,0 +1,86 @@
+/* small view navigation */
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+    color: black;
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+/* small view navigation */
+.navigation a {
+    display: none;
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+
+.open a {
+    display: block;
+}
+
+@media screen and (min-width:800px) {
+    nav {
+        display: flex;
+        border: 2px solid black;
+        background-color: white;
+        justify-content: space-between;
+    }
+
+
+    main {
+        background-color: #1d2d46;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #events {
+        background-color: white;
+        display: flex;
+        border: 2px solid black;
+        justify-content: space-between;
+    }
+
+    section {
+        background-color: white;
+    }
+
+    footer,
+    h2 {
+        background-color: #1d2d46;
+        color: white;
+    }
+
+    #events {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+
+    #events a:hover {
+        background-color: grey;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation a {
+        display: flex;
+    }
+}
