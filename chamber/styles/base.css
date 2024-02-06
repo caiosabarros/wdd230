@@ -29,6 +29,21 @@
     display: block;
 }
 
+.logos {
+    margin-bottom: 3.5em;
+    background-color: #1d2d46;
+    color: #1d2d46;
+}
+
+#mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
 @media screen and (min-width:800px) {
     nav {
         display: flex;
@@ -83,5 +98,16 @@
 
     .navigation a {
         display: flex;
+    }
+
+    .logos {
+        margin-bottom: 3em;
+        background-color: #1d2d46;
+        color: #1d2d46;
+    }
+
+    #heroimg {
+        background-image: url('/chamber/images/rsz_1nyc.jpg');
+
     }
 }
