@@ -3,7 +3,7 @@
     font-size: 1.5rem;
     border: 0;
     background: none;
-    color: #000;
+    /*color: #000;*/
     position: absolute;
     top: 1rem;
     right: 1rem;
@@ -31,27 +31,52 @@
 
 .logos {
     margin-bottom: 3.5em;
-    background-color: #1d2d46;
+    /*background-color: #1d2d46;
     color: #1d2d46;
+  */
+}
+
+nav a:hover {
+    background-color: grey;
 }
 
 #mode {
     position: absolute;
     top: 1rem;
-    right: 1rem;
+    left: 1rem;
     font-size: 3rem;
     cursor: pointer;
     font-size: 2rem;
 }
 
+#heroimg {
+    max-width: 100%;
+    height: auto;
+}
+
+.dark-mode {
+    background-color: #1d2d46;
+    color: white;
+}
+
+.light-mode {
+    color: #1d2d46;
+    background-color: white;
+}
+
+header {
+    color: black;
+}
+
+
 @media screen and (min-width:800px) {
     nav {
-        display: flex;
+        display: grid;
         border: 2px solid black;
         background-color: white;
-        justify-content: space-between;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
     }
-
 
     main {
         background-color: #1d2d46;
@@ -60,12 +85,13 @@
     }
 
     #events {
-        background-color: white;
+        /*background-color: white;*/
         display: flex;
         border: 2px solid black;
         justify-content: space-between;
     }
 
+    /*
     section {
         background-color: white;
     }
@@ -76,11 +102,30 @@
         background-color: #1d2d46;
         color: white;
     }
-
+*/
     #events {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         text-align: center;
+    }
+
+    #events p {
+        grid-row: 1/2;
+        grid-column: 1/3;
+    }
+
+    #spotlights {
+        border-bottom: 2px solid black;
+    }
+
+    #spotlights p {
+        text-align: center;
+    }
+
+    #weather {
+        text-align: center;
+        border-bottom: 2px solid black;
     }
 
     #events a:hover {
@@ -98,16 +143,34 @@
 
     .navigation a {
         display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .navigation a:hover {
+        transition: background-color 0.3s ease;
     }
 
     .logos {
         margin-bottom: 3em;
-        background-color: #1d2d46;
-        color: #1d2d46;
     }
 
     #heroimg {
-        background-image: url('/chamber/images/rsz_1nyc.jpg');
+        max-width: none;
+        width: 100%
+    }
 
+    footer {
+        text-align: center;
+    }
+
+    .dark-mode {
+        background-color: #1d2d46;
+        color: white;
+    }
+
+    .light-mode {
+        color: #1d2d46;
+        background-color: white;
     }
 }

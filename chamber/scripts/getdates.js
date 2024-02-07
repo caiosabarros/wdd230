@@ -13,18 +13,39 @@ hamButton.addEventListener('click', () => {
     hamButton.classList.toggle('open');
 });
 
-const modeButton = document.querySelector("#mode");
+const modeButton = document.getElementById("mode");
 const main = document.querySelector("main");
+const sections = document.querySelectorAll("section");
+const footer = document.querySelector("footer");
+const header = document.querySelector("header");
+const nyc = document.getElementById("nyc");
 
 // dark mode below
 modeButton.addEventListener("click", () => {
-    if (modeButton.textContent.includes("🕶️")) {
-        main.style.background = "#000";
-        main.style.color = "#fff";
-        modeButton.textContent = "🔆";
+    if (modeButton.textContent === "Dark") {
+        toggleDarkMode(footer);
+        sections.forEach(section => toggleDarkMode(section));
+        toggleDarkMode(header);
+        // specific elements
+        toggleDarkMode(nyc);
+
+        main.style.background = "#1d2d46";
+        main.style.color = "#ffffff";
+        modeButton.textContent = "Light";
     } else {
-        main.style.background = "#eee";
-        main.style.color = "#000";
-        modeButton.textContent = "🕶️";
+        main.style.color = "#ffffff";
+        main.style.background = "#1d2d46";
+        toggleLightMode(footer);
+        toggleLightMode(header);
+        sections.forEach(section => toggleLightMode(section));
+        modeButton.textContent = "Dark";
+    }
+
+    function toggleDarkMode(element) {
+        element.setAttribute("class", "dark-mode");
+    }
+    function toggleLightMode(el) {
+        el.setAttribute('class', 'light-mode');
     }
 });
+
