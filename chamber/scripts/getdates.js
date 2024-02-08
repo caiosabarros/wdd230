@@ -24,16 +24,16 @@ const nyc = document.getElementById("nyc");
 modeButton.addEventListener("click", () => {
 
     if (modeButton.textContent === "Light") {
-        main.style.color = "#ffffff";
-        main.style.background = "#1d2d46";
         toggleLightMode(footer);
         toggleLightMode(header);
         sections.forEach(section => toggleLightMode(section));
+        main.style.color = "#ffffff";
+        main.style.background = "#1d2d46";
         modeButton.textContent = "Dark";
     } else {
         toggleDarkMode(footer);
-        sections.forEach(section => toggleDarkMode(section));
         toggleDarkMode(header);
+        sections.forEach(section => toggleDarkMode(section));
         // specific elements
         toggleDarkMode(nyc);
 
@@ -41,27 +41,6 @@ modeButton.addEventListener("click", () => {
         main.style.color = "#ffffff";
         modeButton.textContent = "Light";
     }
-
-    /*
-    if (modeButton.textContent === "Dark") {
-        toggleDarkMode(footer);
-        sections.forEach(section => toggleDarkMode(section));
-        toggleDarkMode(header);
-        // specific elements
-        toggleDarkMode(nyc);
-
-        main.style.background = "#1d2d46";
-        main.style.color = "#ffffff";
-        modeButton.textContent = "Light";
-    } else {
-        main.style.color = "#ffffff";
-        main.style.background = "#1d2d46";
-        toggleLightMode(footer);
-        toggleLightMode(header);
-        sections.forEach(section => toggleLightMode(section));
-        modeButton.textContent = "Dark";
-    }
-    */
 
     function toggleDarkMode(element) {
         element.setAttribute("class", "dark-mode");
