@@ -22,6 +22,27 @@ const nyc = document.getElementById("nyc");
 
 // dark mode below
 modeButton.addEventListener("click", () => {
+
+    if (modeButton.textContent === "Light") {
+        main.style.color = "#ffffff";
+        main.style.background = "#1d2d46";
+        toggleLightMode(footer);
+        toggleLightMode(header);
+        sections.forEach(section => toggleLightMode(section));
+        modeButton.textContent = "Dark";
+    } else {
+        toggleDarkMode(footer);
+        sections.forEach(section => toggleDarkMode(section));
+        toggleDarkMode(header);
+        // specific elements
+        toggleDarkMode(nyc);
+
+        main.style.background = "#1d2d46";
+        main.style.color = "#ffffff";
+        modeButton.textContent = "Light";
+    }
+
+    /*
     if (modeButton.textContent === "Dark") {
         toggleDarkMode(footer);
         sections.forEach(section => toggleDarkMode(section));
@@ -40,6 +61,7 @@ modeButton.addEventListener("click", () => {
         sections.forEach(section => toggleLightMode(section));
         modeButton.textContent = "Dark";
     }
+    */
 
     function toggleDarkMode(element) {
         element.setAttribute("class", "dark-mode");
