@@ -116,6 +116,10 @@ footer {
     background-color: white;
 }
 
+.hero img {
+    width: 100%;
+    height: auto;
+}
 
 @media screen and (min-width:800px) {
     nav {
@@ -166,6 +170,11 @@ footer {
         color: white;
     }
 */
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
 
     #events {
         display: grid;

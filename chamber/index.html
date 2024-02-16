@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Caio Sá">
     <meta name="description" content="NYC Chamber of Commerce website project for WDD 230 class at BYUI">
-    <!--tags for social media-->
+    <!-- tags for social media-->
     <meta property="og:url" content="https://caiosabarros.github.io/wdd230/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Caio Sá - WDD 230 - Chamber Site" />
@@ -23,11 +23,21 @@
 <body>
     <header>
         <div class="logos"></div>
-        <!-- Rectangular switch -->
+        <!-- rectangular switch -->
         <div id="mode">
             Dark
         </div>
-        <img id="heroimg" src="./images/rsz_1nyc.jpg">
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 799px)" srcset="images/600rsz.webp">
+                <source media="(min-width: 800px) and (max-width: 1023px)" srcset="images/800rsz.webp">
+                <source media="(min-width: 1024px) and (max-width: 1279px)" srcset="images/1024rsz.webp">
+                <source media="(min-width: 1280px)" srcset="images/1280rsz.webp">
+                <img src="images/wdd230-org-original.webp" alt="Hero Image">
+            </picture>
+        </div>
+        <!-- image below is image before week06 -->
+        <!-- <img id="heroimg" src="./images/rsz_1nyc.jpg"> -->
         <button id="menu"></button>
     </header>
     <nav class="navigation">
@@ -45,7 +55,7 @@
         </a>
     </nav>
     <main>
-        <!--dark mode: color:"#fff"-->
+        <!-- dark mode: color:"#fff"-->
         <h1 id="nyc">New York City Chamber of Commerce</h1>
         <button id="calltoaction">
             Join the Chamber
@@ -62,7 +72,9 @@
         <section id="weather">
             <p>Weather</p>
             <img src="images/yellow-sun-and-blue-cloud-16528.png">
-            <p>21 F, NYC</p>
+            <p id="temperature">21 F</p>
+            <p id="windspeed">Windspeed: 3.6</p>
+            <p id="windchill">Windchill: </p>
         </section>
         <section id="spotlights">
             <p>Spotlights</p>
@@ -80,6 +92,7 @@
         <p>20 W. 44th Street, 4th Floor, Manhattan, NYC</p>
     </footer>
     <script src="scripts/getdates.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>
