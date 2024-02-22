@@ -342,4 +342,5 @@ footer {
 TODO: 
 1. Light/Dark mode
 2. Center the `page visited` in the discover.html outside the footer.
+3. index.html: Embedded and Inline CSS are not allowed. (You may need to check embedded iframe from Google Maps and remove inline CSS)
 */
