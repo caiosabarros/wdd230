@@ -131,9 +131,9 @@ footer {
     flex-direction: column;
 }
 
-/* main>section { */
-/* TODO: youtube player width on mobile */
-/* } */
+.track {
+    text-align: center;
+}
 
 @media screen and (min-width:800px) {
     nav {
@@ -327,4 +327,19 @@ footer {
         width: 80%;
     }
 
+
+    .track {
+        display: flex;
+        justify-content: center;
+        grid-column: span 2;
+        border: 2px solid white;
+        text-align: center;
+    }
+
 }
+
+/*
+TODO: 
+1. Light/Dark mode
+2. Center the `page visited` in the discover.html outside the footer.
+*/

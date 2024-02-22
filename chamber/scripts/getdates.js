@@ -21,7 +21,6 @@ const header = document.querySelector("header");
 const nyc = document.getElementById("nyc");
 
 
-
 // dark mode below
 modeButton.addEventListener("click", () => {
 
@@ -56,24 +55,32 @@ modeButton.addEventListener("click", () => {
  * Page visits 
  */
 
-// TODO: page visits
+// get element 
+let lastVisitDisplay = document.querySelector(".track");
+// get the last visit 
+let lastVisit = Number(window.localStorage.getItem("lastVisit")) || 0;
 
-let visitsDisplay = document.querySelector(".visits");
-
-let numVisits = Number(window.localStorage.getItem("numVisits")) || 0;
-console.log(`numVisits: ${numVisits}`);
-
-if (numVisits !== 0) {
-    if (numVisits === 1) {
-        visitsDisplay.textContent = `You've been here once!`;
-    } else {
-        visitsDisplay.textContent = `You've been here ${numVisits} times`;
-    }
-    visitsDisplay.textContent = numVisits;
+if (lastVisit === 0) {
+    lastVisitDisplay.textContent = `Welcome! Let us know if you have any questions.`;
 } else {
-    visitsDisplay.textContent = `This is your first visit. 🥳 Welcome!`;
+    // get the current timestamp user has visited.
+    const today = Date.now();
+    const days = Number((lastVisit - today) / 84600000);
+    if (days < 1) {
+        lastVisitDisplay.textContent = `Back so soon! Awesome!`;
+    } else {
+        lastVisitDisplay.textContent = `You last visited ${days.toFixed(0)} days ago.`;
+    }
 }
 
-numVisits++;
-
-localStorage.setItem("numVisits", numVisits);
+localStorage.setItem("lastVisit", Date.now());
+/**
+ * const today = Date.now();
+const christmasDate = new Date(Date.UTC(theDateToday.getFullYear(), 11, 25));
+// check if is the waing days of December, if so ... change to next year.
+if (theDateToday.getMonth() == 11 && theDateToday.getDate() > 25) {
+    christmasDate.setFullYear(christmasDate.getFullYear() + 1);
+}
+// find difference between epoch times in ms and convert to days
+let daysleft = (christmasDate.getTime() - Date.now()) / msToDays;
+ */
