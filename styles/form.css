@@ -29,7 +29,7 @@ main {
 }
 
 #rangevalue {
-    color: var(--text-color);
+    color: var(--text-color a);
     margin-top: 2%;
 
 }
