@@ -1,11 +1,16 @@
+:root {
+    --text-color: hsl(0, 0%, 93%, 1);
+    --label-color: hsl(0, 0%, 100%, 1);
+}
+
 form label {
     display: block;
-    color: white;
+    color: var(--label-color);
     margin-top: 10px;
 }
 
 form legend {
-    color: white;
+    color: var(--text-color);
 }
 
 form input {
@@ -23,10 +28,8 @@ main {
     margin-top: 5%;
 }
 
-#r {}
-
 #rangevalue {
-    color: white;
+    color: var(--text-color);
     margin-top: 2%;
 
 }
