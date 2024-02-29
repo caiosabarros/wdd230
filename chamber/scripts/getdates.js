@@ -84,3 +84,13 @@ if (theDateToday.getMonth() == 11 && theDateToday.getDate() > 25) {
 // find difference between epoch times in ms and convert to days
 let daysleft = (christmasDate.getTime() - Date.now()) / msToDays;
  */
+
+/* ---------- FORMS -------------*/
+
+document.addEventListener('DOMContentLoaded', currentTimestamp);
+
+function currentTimestamp() {
+    const input = document.getElementById("timestamp");
+    input.value = Date.now();
+}
+

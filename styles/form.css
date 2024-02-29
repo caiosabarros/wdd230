@@ -1,0 +1,37 @@
+form label {
+    display: block;
+    color: white;
+    margin-top: 10px;
+}
+
+form legend {
+    color: white;
+}
+
+form input {
+    display: block;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnSubmit {
+    margin-top: 5%;
+}
+
+#r {}
+
+#rangevalue {
+    color: white;
+    margin-top: 2%;
+
+}
+
+#r {
+    margin-top: 10px;
+    width: 100%
+}

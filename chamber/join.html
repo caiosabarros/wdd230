@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Caio Sá">
+    <meta name="description" content="NYC Chamber of Commerce website project for WDD 230 class at BYUI">
+    <!-- tags for social media-->
+    <meta property="og:url" content="https://caiosabarros.github.io/wdd230/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Caio Sá - WDD 230 - Chamber Site" />
+    <meta property="og:image"
+        content="https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <title>NYC Chamber of Commerce</title>
+</head>
+
+<body>
+    <header>
+        <div class="logos"></div>
+        <!-- rectangular switch -->
+        <div id="mode">
+            Dark
+        </div>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 799px)" srcset="images/600rsz.webp">
+                <source media="(min-width: 800px) and (max-width: 1023px)" srcset="images/800rsz.webp">
+                <source media="(min-width: 1024px) and (max-width: 1279px)" srcset="images/1024rsz.webp">
+                <source media="(min-width: 1280px)" srcset="images/1280rsz.webp">
+                <img src="images/wdd230-org-original.webp" alt="Hero Image">
+            </picture>
+        </div>
+        <!-- image below is image before week06 -->
+        <!-- <img id="heroimg" src="./images/rsz_1nyc.jpg"> -->
+        <button id="menu"></button>
+    </header>
+    <nav class="navigation">
+        <a>
+            <p>Home</p>
+        </a>
+        <a>
+            <p>Discover</p>
+        </a>
+        <a>
+            <p>Directory</p>
+        </a>
+        <a>
+            <p>Join</p>
+        </a>
+    </nav>
+    <main>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>
+                    Applicant Information
+                </legend>
+                <label class="top">First Name* <input type="text" name="fname" id="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" id="lname" required></label>
+                <label class="top">Title or Position <input type="text" id="title" name="title" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" id="email"
+                        required></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+            </fieldset>
+            <fieldset>
+                <label class="top">Organization* <input type="text" name="organization" id="organization"
+                        required></label>
+                <label>Membership Level</label>
+                <select name="membership">
+                    <option value="">Please Select &#9662</option>
+                    <option value="np">NP Membership is for non profit organizations and there is no fee.</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silve">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+                <input type="textarea" name="description" id="description" required></label>
+                <input type="hidden" name="timestamp" id="timestamp">
+            </fieldset>
+            <fieldset>
+                <legend>Ready?</legend>
+                <input class="submitBtn" type="submit" value="Join Chamber!">
+        </form>
+        <!--TODO: design to have two columns: forms & benefits-->
+        <!--TODO: Fix the Dark/Light Mode-->
+    </main>
+    <footer>
+        <div id="lastModified"></div>
+        <p>© 2024 Made by Caio Sa, Brazil</p>
+        <p>Telephone: 212-686-7220</p>
+        <p>20 W. 44th Street, 4th Floor, Manhattan, NYC</p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+
+</html>
