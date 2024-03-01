@@ -48,6 +48,7 @@ nav a:hover {
 main {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -138,7 +139,30 @@ footer {
     text-align: center;
 }
 
+.top {
+    color: white;
+}
 
+form fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form label,
+legend {
+    color: white;
+}
+
+#description {
+    margin-top: 10px;
+}
+
+#thanks {
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+}
 
 
 

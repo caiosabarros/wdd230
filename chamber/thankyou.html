@@ -4,11 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Caio Sá">
+    <meta name="description" content="NYC Chamber of Commerce website project for WDD 230 class at BYUI">
+    <!-- tags for social media-->
+    <meta property="og:url" content="https://caiosabarros.github.io/wdd230/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Caio Sá - WDD 230 - Chamber Site" />
+    <meta property="og:image"
+        content="https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <title>NYC Chamber of Commerce</title>
 </head>
 
 <body>
-    <!--TODO: My Own Design-->
+    <header>
+        <div class="logos"></div>
+        <!-- rectangular switch -->
+        <div id="mode">
+            Dark
+        </div>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 799px)" srcset="images/600rsz.webp">
+                <source media="(min-width: 800px) and (max-width: 1023px)" srcset="images/800rsz.webp">
+                <source media="(min-width: 1024px) and (max-width: 1279px)" srcset="images/1024rsz.webp">
+                <source media="(min-width: 1280px)" srcset="images/1280rsz.webp">
+                <img src="images/wdd230-org-original.webp" alt="Hero Image">
+            </picture>
+        </div>
+        <!-- image below is image before week06 -->
+        <!-- <img id="heroimg" src="./images/rsz_1nyc.jpg"> -->
+        <button id="menu"></button>
+    </header>
+    <nav class="navigation">
+        <a>
+            <p>Home</p>
+        </a>
+        <a>
+            <p>Discover</p>
+        </a>
+        <a>
+            <p>Directory</p>
+        </a>
+        <a>
+            <p>Join</p>
+        </a>
+    </nav>
+    <main>
+        <h2 id="thanks">Thank you. We'll review your application and get in touch asap!</h2>
+        <!--TODO: design to have two columns: forms & benefits-->
+        <!--TODO: Fix the Dark/Light Mode-->
+    </main>
+    <footer>
+        <div id="lastModified"></div>
+        <p>© 2024 Made by Caio Sa, Brazil</p>
+        <p>Telephone: 212-686-7220</p>
+        <p>20 W. 44th Street, 4th Floor, Manhattan, NYC</p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 
 </html>
