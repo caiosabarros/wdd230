@@ -1,0 +1,30 @@
+{
+    "wardInformation": {
+        "familyName": "Sa",
+        "moveInDate": "2008-03-15",
+        "numberOfPeople": 4,
+        "visitedByBishopric": true,
+        "familyMembers": [
+            {
+                "name": "Caio Sa",
+                "gender": "Male",
+                "birthdate": "2000-10-14"
+            },
+            {
+                "name": "Gracileia Alves",
+                "gender": "Female",
+                "birthdate": "1981-07-23"
+            },
+            {
+                "name": "Claudio Roberto",
+                "gender": "Male",
+                "birthdate": "1975-01-23"
+            },
+            {
+                "name": "Victor Clementes",
+                "gender": "Male",
+                "birthdate": "2006-12-07"
+            }
+        ]
+    }
+}
