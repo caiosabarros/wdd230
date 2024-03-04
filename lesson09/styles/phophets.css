@@ -1,0 +1,38 @@
+header,
+main,
+footer {
+    margin: 1rem;
+    position: relative;
+}
+
+h2 {
+    color: #000;
+    border-bottom: 1px solid #eee;
+    text-shadow: 0 0 15px #777;
+    width: 60%;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+
+section {
+    margin: 0.105rem;
+    padding: 0.115rem;
+    background-color: #eee;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer,
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: brown;
+}
