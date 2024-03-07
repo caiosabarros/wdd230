@@ -1,0 +1,126 @@
+{
+    "lessons": [
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url": "https://codepen.io/caiosa/pen/bGZeBNL",
+                    "title": "Holy Layout JS Pen"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "lesson02/mediaquery.html",
+                    "title": "Media Queries"
+                },
+                {
+                    "url": "lesson02/design-principles.html",
+                    "title": "Design Principles Document"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url": "lesson03/chamber-site-plan.html",
+                    "title": "Chamber Site Plan"
+                },
+                {
+                    "url": "lesson03/images/combinators.png",
+                    "title": "W3School CSS Combinators Exercises"
+                },
+                {
+                    "url": "https://codepen.io/caiosa/pen/OJqgKxz",
+                    "title": " Responsive Forked Code Pen"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url": "https://codepen.io/caiosa/pen/gOEoyVr",
+                    "title": "Pseudo-class"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url": "https://caiosabarros.github.io/wdd230/lesson05/bom.html",
+                    "title": "Book of Mormon Top 10"
+                },
+                {
+                    "url": "lesson03/images/landscape.webp",
+                    "title": "WebP"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url": "lesson06/responsive-images.html",
+                    "title": "Responsive Images"
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url": "lesson07/lazyload.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "lesson07/bom.html",
+                    "title": "BoM Updated"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url": "lesson08/tablebuild.html",
+                    "title": "Tables"
+                },
+                {
+                    "url": "lesson08/index.html",
+                    "title": "Forms"
+                }
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "url": "lesson09/new-ward-members.json",
+                    "title": "JSON File"
+                },
+                {
+                    "url": "lesson09/prophets.html",
+                    "title": "Prophets"
+                }
+            ]
+        },
+        {
+            "lesson": "10",
+            "links": [
+                {
+                    "url": "lesson02/mediaquery.html",
+                    "title": "Media Queries"
+                },
+                {
+                    "url": "lesson02/design-principles.html",
+                    "title": "Design Principles Document"
+                }
+            ]
+        }
+    ]
+}
