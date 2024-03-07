@@ -15,7 +15,7 @@ function displayLinks(weeks) {
 
         if (week.links.length === 1) {
             const activity = week.links[0];
-            list.innerHTML = `<a href="${baseUrl}${activity.url}">Week ${week.lesson}: ${activity.title}</a>`;
+            list.innerHTML = `<a href="${activity.url}">Week ${week.lesson}: ${activity.title}</a>`;
         } else if (week.links.length > 1) {
             const weekMultiple = document.createElement("span");
             weekMultiple.textContent = `Week ${week.lesson}: `;
@@ -24,7 +24,7 @@ function displayLinks(weeks) {
 
             week.links.forEach((activity, index) => {
                 const anchor = document.createElement("a");
-                anchor.href = `${baseUrl}${activity.url}`;
+                anchor.href = `${activity.url}`;
                 anchor.textContent = activity.title;
 
                 list.appendChild(anchor);
