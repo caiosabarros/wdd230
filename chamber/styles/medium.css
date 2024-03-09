@@ -199,4 +199,24 @@
         text-align: center;
     }
 
+    .list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    #article {
+        padding: 5%;
+    }
+
+    #main {
+        margin-top: 5%;
+    }
+
 }

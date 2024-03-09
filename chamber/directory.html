@@ -44,46 +44,24 @@
         <a>
             <p>Home</p>
         </a>
-        <a href="discover.html">
+        <a>
             <p>Discover</p>
         </a>
-        <a href="directory.html">
+        <a>
             <p>Directory</p>
         </a>
         <a href="join.html">
             <p>Join</p>
         </a>
     </nav>
-    <main>
-        <!-- dark mode: color:"#fff"-->
-        <h1 id="nyc">New York City Chamber of Commerce</h1>
-        <button id="calltoaction">
-            Join the Chamber
-        </button>
-
-        <section id="events">
-            <p>Events</p>
-            <div><a>Marketing to the Government Agencies - Webinar, 10:00 am Friday</a></div>
-            <div><a>Online Networking Coffee, Tuesday, 10:00 am</a>
-            </div>
-            <div><a>Doing Business with Dubai - Private Luncheon, Wednesday 12:00 Noon</a></div>
-            <div><a>2024 New York Build Expo, February 13th - 14th</a></div>
-        </section>
-        <section id="weather">
-            <p>Weather</p>
-            <img src="images/yellow-sun-and-blue-cloud-16528.png">
-            <p id="temperature">21 F</p>
-            <p id="windspeed">Windspeed: 3.6</p>
-            <p id="windchill">Windchill: </p>
-        </section>
-        <section id="spotlights">
-            <p>Spotlights</p>
-            <p>
-                We understand the importance of Building Connections. That's why Gotham Building is a proud member and
-                ambassador of the Greater New York Chamber of Commerce.
-            </p>
-            <p>-GOTHAM BUILDING</p>
-        </section>
+    <h1>NYC Chamber of Commerce</h1>
+    <main id="main">
+        <div id="menu-directory">
+            <button id="grid">⏹️Grid</button>
+            <button id="list">📄List</button>
+        </div>
+        <article id="article" class="grid">
+        </article>
     </main>
     <footer>
         <div id="lastModified"></div>
@@ -93,6 +71,7 @@
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 
 </html>

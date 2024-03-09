@@ -1,0 +1,130 @@
+{
+    "members": [
+        {
+            "company": "01",
+            "info": [
+                {
+                    "url": "https://codepen.io/caiosa/pen/bGZeBNL",
+                    "address": "123 Main St, New York, NY 10001",
+                    "phone": "(646) 555-7890",
+                    "image": "images/pexels-magda-ehlers-1337377.jpg",
+                    "level": "",
+                    "email": "goloof@goolof.com",
+                    "name": "Goloof"
+                }
+            ]
+        },
+        {
+            "company": "02",
+            "info": [
+                {
+                    "url": "lesson02/mediaquery.html",
+                    "address": "456 Elm St, Brooklyn, NY 11201",
+                    "phone": "(718) 555-6789",
+                    "image": "images/pexels-magda-ehlers-1337378.jpg",
+                    "level": "",
+                    "email": "pragtig@pragtig.com",
+                    "name": "PragTig"
+                }
+            ]
+        },
+        {
+            "company": "03",
+            "info": [
+                {
+                    "url": "lesson03/chamber-site-plan.html",
+                    "address": "789 Oak St, Queens, NY 11354",
+                    "phone": "(212) 555-3456",
+                    "image": "images/pexels-magda-ehlers-1337383.jpg",
+                    "level": "",
+                    "email": "liofdo@liofdo.com",
+                    "name": "Liofdo"
+                }
+            ]
+        },
+        {
+            "company": "04",
+            "info": [
+                {
+                    "url": "https://codepen.io/caiosa/pen/gOEoyVr",
+                    "address": "321 Pine St, Manhattan, NY 10022",
+                    "phone": "(929) 555-2109",
+                    "image": "images/pexels-magda-ehlers-1339363.jpg",
+                    "level": "",
+                    "email": "oupa@oupa.com",
+                    "name": "Uopa"
+                }
+            ]
+        },
+        {
+            "company": "05",
+            "info": [
+                {
+                    "url": "https://caiosabarros.github.io/wdd230/lesson05/bom.html",
+                    "address": "567 Maple St, Bronx, NY 10453",
+                    "phone": "(347) 555-8765",
+                    "image": "images/pexels-magda-ehlers-1339366.jpg",
+                    "level": "",
+                    "email": "ons@ons.com",
+                    "name": "Ons"
+                }
+            ]
+        },
+        {
+            "company": "06",
+            "info": [
+                {
+                    "url": "lesson06/responsive-images.html",
+                    "address": "890 Birch St, Staten Island, NY 10301",
+                    "phone": "(917) 555-4321",
+                    "image": "images/pexels-magda-ehlers-1339368.jpg",
+                    "level": "",
+                    "email": "godoriewaar@godoriewaar.com",
+                    "name": "Godoriewaar"
+                }
+            ]
+        },
+        {
+            "company": "07",
+            "info": [
+                {
+                    "url": "lesson07/lazyload.html",
+                    "address": "234 Cedar St, Brooklyn, NY 11215",
+                    "phone": "(646) 555-9876",
+                    "image": "images/pexels-magda-ehlers-1337386.jpg",
+                    "level": "",
+                    "email": "alphabet@alphabet.com",
+                    "name": "Alphabet"
+                }
+            ]
+        },
+        {
+            "company": "08",
+            "info": [
+                {
+                    "url": "lesson08/tablebuild.html",
+                    "address": "876 Spruce St, Queens, NY 11432",
+                    "phone": "(718) 555-5678",
+                    "image": "images/pexels-magda-ehlers-1337384.jpg",
+                    "level": "",
+                    "email": "good@good.com",
+                    "name": "Good"
+                }
+            ]
+        },
+        {
+            "company": "09",
+            "info": [
+                {
+                    "url": "lesson09/new-ward-members.json",
+                    "address": "543 Walnut St, Manhattan, NY 10012",
+                    "phone": "(212) 555-1234",
+                    "image": "images/pexels-magda-ehlers-1337380.jpg",
+                    "level": "",
+                    "email": "mooi@mooi.com",
+                    "name": "Mooi"
+                }
+            ]
+        }
+    ]
+}

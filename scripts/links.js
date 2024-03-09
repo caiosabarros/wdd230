@@ -23,11 +23,13 @@ function displayLinks(weeks) {
             weekMultiple.style.color = "white";
 
             week.links.forEach((activity, index) => {
+
                 const anchor = document.createElement("a");
                 anchor.href = `${activity.url}`;
                 anchor.textContent = activity.title;
 
                 list.appendChild(anchor);
+
 
                 // add bar | between activities
                 if (index < week.links.length - 1) {
