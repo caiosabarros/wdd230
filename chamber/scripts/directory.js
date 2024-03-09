@@ -55,7 +55,7 @@ function displayMembers(members) {
 		addressP.style.color = "white";
 		phoneP.textContent = `${member.info[0].phone}`;
 		phoneP.style.color = "white";
-		levelP.textContent = `${member.info[0].level}`;
+		levelP.textContent = `Membership Level: ${member.info[0].level}`;
 		levelP.style.color = "white";
 		emailP.textContent = `${member.info[0].email}`;
 		emailP.style.color = "white";

@@ -8,7 +8,7 @@
                     "address": "123 Main St, New York, NY 10001",
                     "phone": "(646) 555-7890",
                     "image": "images/pexels-magda-ehlers-1337377.jpg",
-                    "level": "",
+                    "level": "gold",
                     "email": "goloof@goolof.com",
                     "name": "Goloof"
                 }
@@ -22,7 +22,7 @@
                     "address": "456 Elm St, Brooklyn, NY 11201",
                     "phone": "(718) 555-6789",
                     "image": "images/pexels-magda-ehlers-1337378.jpg",
-                    "level": "",
+                    "level": "gold",
                     "email": "pragtig@pragtig.com",
                     "name": "PragTig"
                 }
@@ -36,7 +36,7 @@
                     "address": "789 Oak St, Queens, NY 11354",
                     "phone": "(212) 555-3456",
                     "image": "images/pexels-magda-ehlers-1337383.jpg",
-                    "level": "",
+                    "level": "gold",
                     "email": "liofdo@liofdo.com",
                     "name": "Liofdo"
                 }
@@ -50,7 +50,7 @@
                     "address": "321 Pine St, Manhattan, NY 10022",
                     "phone": "(929) 555-2109",
                     "image": "images/pexels-magda-ehlers-1339363.jpg",
-                    "level": "",
+                    "level": "gold",
                     "email": "oupa@oupa.com",
                     "name": "Uopa"
                 }
@@ -64,7 +64,7 @@
                     "address": "567 Maple St, Bronx, NY 10453",
                     "phone": "(347) 555-8765",
                     "image": "images/pexels-magda-ehlers-1339366.jpg",
-                    "level": "",
+                    "level": "gold",
                     "email": "ons@ons.com",
                     "name": "Ons"
                 }
@@ -78,7 +78,7 @@
                     "address": "890 Birch St, Staten Island, NY 10301",
                     "phone": "(917) 555-4321",
                     "image": "images/pexels-magda-ehlers-1339368.jpg",
-                    "level": "",
+                    "level": "gold",
                     "email": "godoriewaar@godoriewaar.com",
                     "name": "Godoriewaar"
                 }
@@ -92,7 +92,7 @@
                     "address": "234 Cedar St, Brooklyn, NY 11215",
                     "phone": "(646) 555-9876",
                     "image": "images/pexels-magda-ehlers-1337386.jpg",
-                    "level": "",
+                    "level": "gold",
                     "email": "alphabet@alphabet.com",
                     "name": "Alphabet"
                 }
@@ -106,7 +106,7 @@
                     "address": "876 Spruce St, Queens, NY 11432",
                     "phone": "(718) 555-5678",
                     "image": "images/pexels-magda-ehlers-1337384.jpg",
-                    "level": "",
+                    "level": "gold",
                     "email": "good@good.com",
                     "name": "Good"
                 }
@@ -120,7 +120,7 @@
                     "address": "543 Walnut St, Manhattan, NY 10012",
                     "phone": "(212) 555-1234",
                     "image": "images/pexels-magda-ehlers-1337380.jpg",
-                    "level": "",
+                    "level": "gold",
                     "email": "mooi@mooi.com",
                     "name": "Mooi"
                 }
