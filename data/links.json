@@ -113,12 +113,8 @@
             "lesson": "10",
             "links": [
                 {
-                    "url": "lesson02/mediaquery.html",
-                    "title": "Media Queries"
-                },
-                {
-                    "url": "lesson02/design-principles.html",
-                    "title": "Design Principles Document"
+                    "url": "lesson10/weather.html",
+                    "title": "Consuming a Weather API"
                 }
             ]
         }
