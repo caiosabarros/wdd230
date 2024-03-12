@@ -71,8 +71,13 @@
         </section>
         <section id="weather">
             <p>Weather</p>
-            <img src="images/yellow-sun-and-blue-cloud-16528.png">
-            <p id="temperature">21 F</p>
+            <div>
+                <p>Temperature in NYC is<span id="current-temp"></span></p>
+                <figure id="icon-weather">
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure>
+            </div>
             <p id="windspeed">Windspeed: 3.6</p>
             <p id="windchill">Windchill: </p>
         </section>
@@ -83,6 +88,9 @@
                 ambassador of the Greater New York Chamber of Commerce.
             </p>
             <p>-GOTHAM BUILDING</p>
+        </section>
+        <section class="track">
+            <p></p>
         </section>
     </main>
     <footer>
@@ -96,3 +104,6 @@
 </body>
 
 </html>
+
+<!--TODO: Use the below on HTMLContentLoaded EventListener to add Image that is modal for Event on Wednesday.-->
+<!--https://www.w3schools.com/howto/howto_css_modal_images.asp-->

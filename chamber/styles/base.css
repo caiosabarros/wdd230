@@ -164,12 +164,17 @@ legend {
     border: 2px solid white;
 }
 
-
-
+#weather>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
 /*
 TODO: 
 1. Light/Dark mode
 2. Center the `page visited` in the discover.html outside the footer.
 3. index.html: Embedded and Inline CSS are not allowed. (You may need to check embedded iframe from Google Maps and remove inline CSS)
+
 */

@@ -1,3 +1,4 @@
+
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
@@ -13,9 +14,7 @@ async function apitFetch() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            console.log("data", data);
             displayResults(data);
-            console.log("cool");
         } else {
             throw new Error(await response.text());
         }

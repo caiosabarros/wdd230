@@ -1,6 +1,6 @@
 let windspeed = document.getElementById("windspeed").innerHTML;
 windspeed = Number(windspeed.substr(11));
-let temperature = document.getElementById("temperature").innerHTML;
+let temperature = document.getElementById("current-temp").innerHTML;
 temperature = Number(temperature.substr(0, 2));
 // check to make sure they meet the specification limits (<=50°F and>3.0mph) allowed to officially calculate the wind chill, and
 
