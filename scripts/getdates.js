@@ -54,6 +54,12 @@ const captionDesc = document.querySelector('figcaption');
 // Trier, Germany
 // const url = `https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&units=imperial&appid=6d7ca3e10d96adca7d3636cb6d24fdcf`;
 
+// Brasilia, Brazil
+// -15.790034727715815, -47.88840935014197
+const url = `https://api.openweathermap.org/data/2.5/weather?lat=-15.79&lon=-47.88&units=imperial&appid=6d7ca3e10d96adca7d3636cb6d24fdcf`;
+
+
+
 async function apitFetch() {
     try {
         const response = await fetch(url);

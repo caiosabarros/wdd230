@@ -54,12 +54,24 @@ main {
 
 
 #mode {
-    position: absolute;
+    /* position: absolute;
     top: 1rem;
-    left: 1rem;
-    font-size: 3rem;
+    left: 1rem; */
     cursor: pointer;
     font-size: 2rem;
+    border: 2px solid #1d2d46;
+    /*TODO: JS pra colocar cor do background*/
+    border-radius: 20px;
+    padding: 5px;
+    margin: 20px;
+    width: 10%;
+    text-align: center;
+}
+
+#mode:hover {
+    background-color: white;
+    color: #1d2d46;
+    opacity: 50%;
 }
 
 #heroimg {
@@ -169,6 +181,11 @@ legend {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+
+body {
+    background-color: green;
 }
 
 /*
