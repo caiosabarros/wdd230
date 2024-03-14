@@ -81,6 +81,7 @@ function displayResults(data) {
     weatherIcon.setAttribute("src", iconsrc);
     weatherIcon.setAttribute("alt", `${desc} icon`);
     captionDesc.textContent = `${desc}`;
+    captionDesc.style.color = "white";
 }
 
 apitFetch();
