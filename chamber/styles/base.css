@@ -188,6 +188,20 @@ body {
     background-color: white;
 }
 
+.nav-link {
+    text-decoration: none;
+    /* Remove default underline */
+    color: #333;
+    /* Default color */
+}
+
+.nav-link.active {
+    color: #ff0000;
+    /* Change color for active page */
+    font-weight: bold;
+    /* Add emphasis for active page */
+}
+
 /*
 TODO: 
 1. Light/Dark mode

@@ -1,4 +1,4 @@
-let windspeed = document.getElementById("windspeed").innerHTML;
+let windspeed = document.getElementById("windspeed").textContent;
 windspeed = Number(windspeed.substr(11));
 let temperature = document.getElementById("current-temp").innerHTML;
 temperature = Number(temperature.substr(0, 2));
