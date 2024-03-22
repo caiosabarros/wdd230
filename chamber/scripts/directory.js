@@ -26,16 +26,13 @@ function showList() {
 //---------DISPLAY JSON DATA---------------
 async function getCompanies() {
 	const companies = await fetch(members);
-	console.log("companies", companies);
 	const data = await companies.json();
-	console.log("data: ", data);
 	displayMembers(data.members);
 }
 
 function displayMembers(members) {
 	const list = document.getElementById("article");
 	members.forEach(member => {
-		console.log("member", member);
 		// create section
 		const section = document.createElement("section");
 		// create sub elements of section

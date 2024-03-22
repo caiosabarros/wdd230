@@ -103,7 +103,6 @@ async function apitFetch() {
         if (response.ok) {
             const data = await response.json();
             displayResults(data);
-            console.log("data", data);
         } else {
             throw new Error(await response.text());
         }
